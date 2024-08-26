@@ -1,0 +1,18 @@
+1:What is Node.js?
+
+Node.js is an open source server environment
+Node.js is free
+Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
+Node.js uses JavaScript on the server
+ 
+
+
+2:Modules:To include a module, use the require() function with the name of the module:
+	 var http = require('http');
+
+3:Node.js Getting Started:to display "Hello World" in a web browser.Create a Node.js file named "myfirst.js", and add the following code:
+			  var http = require('http');
+			  http.Create.Server(function (req, res) {
+ 			  res.writeHead(200, {'Content-Type': 'text/html'});
+  			  res.end('Hello World!');
+			  }),1000;

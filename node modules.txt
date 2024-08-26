@@ -1,0 +1,23 @@
+node install steps:
+
+1.node -v
+2.sudo apt install opem-vm-tools -y
+3.node -v
+4.npm -v
+5.sudo apt update
+6.sudo apt install npm
+7.sudo npm install -g n
+8.nodemon-sudo npm install -g nodemon
+
+
+2) What is NPM?
+   NPM is a package manager for Node.js packages, or modules if you like.
+   www.npmjs.com hosts thousands of free packages to download and use.
+   The NPM program is installed on your computer when you install Node.js
+
+
+3) res.writeHead =res.writehead() is a part of http module. it is used to send a response header to the incoming request.
+   res.end = The res.end() function concludes the response process and is derived from the HTTP.
+
+4) 
+
